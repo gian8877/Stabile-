@@ -1,0 +1,99 @@
+     A                                      DSPSIZ(*DS4)
+     A                                      CHGINPDFT
+     A          R W01
+     A                                  1 20'    ________  ________  ___       -
+     A                                      __   _______   ________          __-
+     A                                      _  ___  ________       '
+     A                                  2 20'   |\   __  \|\   __  \|\  \     |-
+     A                                      \  \|\  ___ \ |\   __  \        |\ -
+     A                                       \|\  \|\   __  \      '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  3 20'   \ \  \|\  \ \  \|\  \ \  \    \-
+     A                                       \  \ \   __/|\ \  \|\  \       \ \-
+     A                                        \\\  \ \  \|\  \     '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  4 20'    \ \   ____\ \  \\\  \ \  \  __-
+     A                                      \ \  \ \  \_|/_\ \   _  _\       \ -
+     A                                      \   __  \ \   __  \    '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  5 20'     \ \  \___|\ \  \\\  \ \  \|\_-
+     A                                      _\_\  \ \  \_|\ \ \  \\  \|       \-
+     A                                       \  \ \  \ \  \ \  \   '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  6 20'      \ \__\    \ \_______\ \_____-
+     A                                      _______\ \_______\ \__\\ _\        -
+     A                                      \ \__\ \__\ \__\ \__\  '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  7 20'       \|__|     \|_______|\|_____-
+     A                                      _______|\|_______|\|__|\|__|       -
+     A                                       \|__|\|__|\|__|\|__|  '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  8  2'-----------------------------------
+     A                                      ------------------------------------
+     A                                      ------------------------------------
+     A                                      -------------------------'
+     A                                      COLOR(WHT)
+     A            C1            50   B 10  6CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  21                                  COLOR(RED)
+     A            C2            50   B 10 33CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  22                                  COLOR(RED)
+     A            C3            50   B 19 47CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  23                                  COLOR(YLW)
+     A            C4            50   B 19 77CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  24                                  COLOR(YLW)
+     A            C5            50   B 10 60CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  25                                  COLOR(RED)
+     A            C6            50   B 10 90CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  26                                  COLOR(RED)
+     A            C7            50   B 10117CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  27                                  COLOR(RED)
+     A                                 15  9'Nodi'
+     A  21                                  COLOR(RED)
+     A                                 15 27'Dominio Amministrativo'
+     A  22                                  COLOR(RED)
+     A                                 24 72'Risorse Non Monitorate'
+     A  24                                  COLOR(YLW)
+     A                                 24 43'Risorse Monitorate'
+     A  23                                  COLOR(YLW)
+     A                                 15 54'Cluster Resources Group'
+     A  25                                  COLOR(RED)
+     A                                 15 88'Recovery Domain'
+     A  26                                  COLOR(RED)
+     A                                 15118'Sessioni'
+     A  27                                  COLOR(RED)
+     A                                 17  2'-----------------------------------
+     A                                      ------------------------------------
+     A                                      ------------------------------------
+     A                                      -------------------------'
+     A                                      COLOR(WHT)
+     A                                 26  4'-----------------------------------
+     A                                      ------------------------------------
+     A                                      ------------------------------------
+     A                                      -------------------------'
+     A                                      COLOR(WHT)
