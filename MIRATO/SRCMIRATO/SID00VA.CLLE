@@ -1,0 +1,11 @@
+pgm
+
+dcl &p1 *char 10 value('GIANHA')
+dcl &p2 *char 4
+dcl &p3 *char 10 value('*NO')
+dcl &p4 *char 4000 value('  ')
+
+CHGVAR VAR(%BIN(&p2)) VALUE(146)
+/*CHGVAR VAR(%BIN(&p2)) VALUE(146)*/
+call QHSMMOVL  parm(&p1 &p2 &p3 &p4)
+endpgm
