@@ -1,0 +1,16 @@
+             pgm
+             DCLF       FILE(GIAN/MSGV)
+             chgvar     &pgmq yourpgm
+ MAIN:
+             SNDF       RCDFMT(MAIN)
+             SNDF       RCDFMT(MAIN)
+             SNDF       RCDFMT(CMSG)
+             RCVF       RCDFMT(MAIN)
+             RMVMSG     CLEAR(*ALL)
+             if         (&in03 = '1') then(goto endpgm)
+             call       qcmdexc (&cmd 1000)
+             goto       main
+
+ endpgm:  /* modificata riga */
+ endpgm:  /* modificata riga */
+             endpgm

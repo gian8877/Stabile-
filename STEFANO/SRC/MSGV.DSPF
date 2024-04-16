@@ -1,0 +1,16 @@
+     A                                      DSPSIZ(24 80 *DS3)
+     A                                      CF03(03)
+     A          R MAIN
+     A            CMD         1314   B  2  4CNTFLD(73)
+
+     A          R SMSG                      SFL
+     A                                      SFLMSGRCD(21)
+     A            KEY                       SFLMSGKEY
+     A            PGMQ                      SFLPGMQ
+     A          R CMSG                      SFLCTL(SMSG) OVERLAY
+     A                                      SFLPAG(3)
+     A                                      SFLSIZ(4)
+     A                                      SFLDSP SFLDSPCTL
+     A                                      SFLINZ
+     A N99                                  SFLEND(*PLUS)
+     A            PGMQ                      SFLPGMQ(10)

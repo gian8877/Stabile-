@@ -1,0 +1,247 @@
+     A                                      DSPSIZ(*DS4)
+     A                                      CHGINPDFT
+     A                                      CA03(03)
+     A          R W01
+     A                                      INVITE
+     A                                      OVERLAY
+     A                                      KEEP
+     A                                  3  7' __________                       -
+     A                                                  ___ ___    _____    '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  4  7' \______   \______  _  __ ________-
+     A                                      ___        /   |   \  /  _  \   '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  5  7'  |     ___/  _ \ \/ \/ // __ \_  -
+     A                                      __ \      /    ~    \/  /_\  \  '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  6  7'  |    |  (  <_> )     /\  ___/|  -
+     A                                      | \/      \    Y    /    |    \ '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  7  7'  |____|   \____/ \/\_/  \___  >__-
+     A                                      |          \___|_  /\____|__  / '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  8  7'                             \/   -
+     A                                                       \/         \/  '
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A            C1            50   B 12  7CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  21                                  COLOR(RED)
+     A            C2            50   B 12 33CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  22                                  COLOR(RED)
+     A            C3            50   B 19 88CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  23                                  COLOR(YLW)
+     A            C4            50   B 19111CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  24                                  COLOR(YLW)
+     A            C5            50   B 12 62CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  25                                  COLOR(RED)
+     A            C6            50   B 12 91CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  26                                  COLOR(RED)
+     A            C7            50   B 12118CNTFLD(10)
+     A                                      DSPATR(PR)
+     A                                      DSPATR(RI)
+     A  27                                  COLOR(RED)
+     A                                 17 10'Nodi'
+     A  21                                  COLOR(RED)
+     A                                 17 26'Dominio Amministrativo'
+     A  22                                  COLOR(RED)
+     A                                 24105'Risorse Non Monitorate'
+     A  24                                  COLOR(YLW)
+     A                                 24 83'Risorse Monitorate'
+     A  23                                  COLOR(YLW)
+     A                                 17 56'Cluster Resources Group'
+     A  25                                  COLOR(RED)
+     A                                 17 88'Recovery Domain'
+     A  26                                  COLOR(RED)
+     A                                 17119'Sessioni'
+     A  27                                  COLOR(RED)
+     A                                 18  3'+----------------------------------
+     A                                      ------------------------------------
+     A                                      ------------------------------------
+     A                                      ------------------------+'
+     A                                      COLOR(WHT)
+     A                                  6 97'Cluster Resources Group'
+     A  25                                  COLOR(RED)
+     A                                  4116'Nodi'
+     A  21                                  COLOR(RED)
+     A                                  5 98'Dominio Amministrativo'
+     A  22                                  COLOR(RED)
+     A                                  7105'Recovery Domain'
+     A  26                                  COLOR(RED)
+     A                                  8112'Sessioni'
+     A  27                                  COLOR(RED)
+     A                                  9102'Risorse Monitorate'
+     A  23                                  COLOR(YLW)
+     A                                 10 98'Risorse Non Monitorate'
+     A  24                                  COLOR(YLW)
+     A            N1             5Y 0O  4122EDTCDE(2)
+     A  21                                  COLOR(RED)
+     A            N5             5Y 0   6122EDTCDE(2)
+     A  25                                  COLOR(RED)
+     A            N2             5Y 0   5122EDTCDE(2)
+     A  22                                  COLOR(RED)
+     A            N6             5Y 0   7122EDTCDE(2)
+     A  26                                  COLOR(RED)
+     A            N7             5Y 0   8122EDTCDE(2)
+     A  27                                  COLOR(RED)
+     A            N3             5Y 0   9122EDTCDE(2)
+     A  23                                  COLOR(YLW)
+     A            N4             5Y 0  10122EDTCDE(2)
+     A  24                                  COLOR(YLW)
+     A                                  2  3'+----------------------------------
+     A                                      ------------------------------------
+     A                                      ------------+-----------------------
+     A                                      ------------------------+'
+     A                                      COLOR(WHT)
+     A                                 10 60'Powered By Wise Frogs'
+     A  90                                  COLOR(GRN)
+     A  91                                  COLOR(YLW)
+     A  92                                  COLOR(RED)
+     A                                  3 84'|'
+     A                                      COLOR(WHT)
+     A                                 10 84'|'
+     A                                      COLOR(WHT)
+     A                                  9 84'|'
+     A                                      COLOR(WHT)
+     A                                  8 84'|'
+     A                                      COLOR(WHT)
+     A                                  7 84'|'
+     A                                      COLOR(WHT)
+     A                                  6 84'|'
+     A                                      COLOR(WHT)
+     A                                  5 84'|'
+     A                                      COLOR(WHT)
+     A                                  4 84'|'
+     A                                      COLOR(WHT)
+     A                                  3 97'                  Items  Errori'
+     A                                      DSPATR(UL)
+     A                                      COLOR(WHT)
+     A                                  3  3'|'
+     A                                      COLOR(WHT)
+     A                                 10  3'|'
+     A                                      COLOR(WHT)
+     A                                  9  3'|'
+     A                                      COLOR(WHT)
+     A                                  8  3'|'
+     A                                      COLOR(WHT)
+     A                                  7  3'|'
+     A                                      COLOR(WHT)
+     A                                  6  3'|'
+     A                                      COLOR(WHT)
+     A                                  5  3'|'
+     A                                      COLOR(WHT)
+     A                                  4  3'|'
+     A                                      COLOR(WHT)
+     A                                  3131'|'
+     A                                      COLOR(WHT)
+     A                                  4131'|'
+     A                                      COLOR(WHT)
+     A                                  5131'|'
+     A                                      COLOR(WHT)
+     A                                  6131'|'
+     A                                      COLOR(WHT)
+     A                                  7131'|'
+     A                                      COLOR(WHT)
+     A                                  8131'|'
+     A                                      COLOR(WHT)
+     A                                  9131'|'
+     A                                      COLOR(WHT)
+     A                                 10131'|'
+     A                                      COLOR(WHT)
+     A                                 11  3'+----------------------------------
+     A                                      ------------------------------------
+     A                                      ------------+-----------------------
+     A                                      ------------------------+'
+     A                                      COLOR(WHT)
+     A                                 12  3'|'
+     A                                      COLOR(WHT)
+     A                                 13  3'|'
+     A                                      COLOR(WHT)
+     A                                 14  3'|'
+     A                                      COLOR(WHT)
+     A                                 15  3'|'
+     A                                      COLOR(WHT)
+     A                                 16  3'|'
+     A                                      COLOR(WHT)
+     A                                 17  3'|'
+     A                                      COLOR(WHT)
+     A                                 12131'|'
+     A                                      COLOR(WHT)
+     A                                 13131'|'
+     A                                      COLOR(WHT)
+     A                                 14131'|'
+     A                                      COLOR(WHT)
+     A                                 15131'|'
+     A                                      COLOR(WHT)
+     A                                 16131'|'
+     A                                      COLOR(WHT)
+     A                                 17131'|'
+     A                                      COLOR(WHT)
+     A                                 19131'|'
+     A                                      COLOR(WHT)
+     A                                 20131'|'
+     A                                      COLOR(WHT)
+     A                                 21131'|'
+     A                                      COLOR(WHT)
+     A                                 22131'|'
+     A                                      COLOR(WHT)
+     A                                 23131'|'
+     A                                      COLOR(WHT)
+     A                                 24131'|'
+     A                                      COLOR(WHT)
+     A                                 19  3'|'
+     A                                      COLOR(WHT)
+     A                                 20  3'|'
+     A                                      COLOR(WHT)
+     A                                 21  3'|'
+     A                                      COLOR(WHT)
+     A                                 22  3'|'
+     A                                      COLOR(WHT)
+     A                                 23  3'|'
+     A                                      COLOR(WHT)
+     A                                 24  3'|'
+     A                                      COLOR(WHT)
+     A                                 25  3'+----------------------------------
+     A                                      ------------------------------------
+     A                                      ------------------------------------
+     A                                      ------------------------+'
+     A                                      COLOR(WHT)
+     A                                 26114'F03 = Fine Lavoro'
+     A                                      COLOR(BLU)
+     A                                 26  3'Autorefresh ='
+     A                                 26 17'*ON'
+     A                                      COLOR(WHT)
+     A                                 19  6'Nodo Primario ......:'
+     A                                 20  6'Minuti ritardo .....: '
+     A                                 21  6'Freeze Time ........:'
+     A                                 22  6'Stato Copia ........:'
+     A                                 23  6'Progressione copia .:'
+     A                                 24  6'Stato Storage ......:'
+     A            NODO          10   O 19 29COLOR(WHT)
+     A            MINUTI        15     20 29COLOR(WHT)
+     A            DATA          26     21 29COLOR(WHT)
+     A            STATO         15     22 29COLOR(WHT)
+     A            PROG           3N 0  23 29COLOR(WHT)
+     A            STATOCOP      35     24 29COLOR(WHT)

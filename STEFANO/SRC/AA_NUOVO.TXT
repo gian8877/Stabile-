@@ -1,0 +1,3 @@
+prima riga dell commit 2
+aggiunta questa riga
+contemporaneamente aggiunta questa riga
