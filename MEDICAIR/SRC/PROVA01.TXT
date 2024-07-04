@@ -2,6 +2,4 @@ prima riga di prova
 da adesso in poi sono righe aggiunte numero 5
 1
 2
-3
-4
 5
