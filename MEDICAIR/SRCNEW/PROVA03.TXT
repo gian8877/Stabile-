@@ -1,9 +1,7 @@
 prima riga di prova
 da adesso in poi sono righe aggiunte numero 5
 1
-2
 5
 5
-5
-5
-5
+prima riga di prova
+prima riga di prova
